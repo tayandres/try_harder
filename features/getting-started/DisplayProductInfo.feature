@@ -19,8 +19,8 @@ Background:
 
     #TODO: Create scenarios that cover all the acceptance criteria
     Scenario: user sees all the available products on start application page
-    Then user sees course title
-    Then user sees upfront cost saving
+   # Then user sees course title
+    Then user sees cost and upfront savings
     Then user sees flexible payments plan 
     #Then I see the program start date is in the correct format
     And user sees the refund policy

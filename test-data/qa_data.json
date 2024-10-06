@@ -14,7 +14,7 @@
     "prices": [
       {
         "active": true,
-        "baseAmount": 500,
+        "baseAmount": "$500",
         "type": "one-time",
         "upfrontDiscount": true,
         "upfrontDiscountAmount": 100,
