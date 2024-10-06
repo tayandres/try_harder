@@ -6,7 +6,7 @@ import { productInfo } from "../../utilities/qa-data-reader.js";
 
          Then('user sees course title', async function () {
            const cardTitle = startApplicationPage.productInfo.productName.innerText();
-          expect(cardTitle).toEqual(productInfo.productName);
+          expect(cardTitle).toEqual(startApplicationPage.productInfo.productName);
          });
 
    
@@ -14,13 +14,13 @@ import { productInfo } from "../../utilities/qa-data-reader.js";
          Then('user sees upfront cost saving', async function () {
            const upFrontCostUI= await startApplicationPage.productInfo.upFrontCost.innerText()
 ;
-           expect(upFrontCostUI).toEqual(productInfo.upfrontCost);});
+           expect(upFrontCostUI).toEqual(startApplicationPage.productInfo.upfrontCost);});
 
    
 
          Then('user sees flexible payments plan', async function () {
             const flexPaymentUI = await startApplicationPage.productInfo.flexPayment.innerText
-            expect(flexPaymentUi).toEqual(productInfo.flexPayment);
+            expect(flexPaymentUi).toEqual(startApplicationPage.productInfo.flexPayment);
            
          });
 
@@ -28,7 +28,7 @@ import { productInfo } from "../../utilities/qa-data-reader.js";
          Then('user sees the refund policy', async function () {
            const refundPolicy = await startApplicationPage.productInfo.refundPolicy.innerText();
 
-           expect(refundPolicy).toEqual(productInfo.refundPolicy);
+           expect(refundPolicy).toEqual(startApplicationPage.productInfo.refundPolicy);
          });
 
          
