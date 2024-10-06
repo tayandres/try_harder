@@ -12,7 +12,7 @@ Feature: Program start dates and Refund dates
    
     #TODO: Create scenarios that cover all the acceptance criteria
 Background: 
-Given user navigates the enrollment
+Given user navigates to the enrollment page
 
 
 Scenario: As a customer, I want to see the program start dates and refund policy details before enrolling so that I can make informed decisions.
